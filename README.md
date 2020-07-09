@@ -128,7 +128,7 @@ screen -ls  # просмотр сессий screen
 
 ### Остановка приложения
 ```bash
-screen -r <название сессии>  # вернуться в указанную сессию
+screen -r ${session}  # вернуться в указанную сессию screen
 # ctrl-Z для остановки сервера python
 exit  # There are stopped jobs.
 exit  # [screen is terminating]
