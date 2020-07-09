@@ -109,7 +109,7 @@ sudo apt-get install screen
 
 ### Установка приложения
 ```bash
-git clone git@github.com:Arkkav/file_server.git
+git clone https://github.com/Arkkav/file_server.git
 cd ./file_server
 python3 -m venv env
 . env/bin/activate
